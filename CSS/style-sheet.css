@@ -1,0 +1,40 @@
+html{
+    size: 1em;
+}
+body{
+    background-color: lightblue;
+}
+.Home-icon{
+    height: 1.5em;
+}
+.footer{
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+}
+.contact{
+    border-radius: 50%;
+    height: 1.5em;
+}
+.conterfy{
+    height: 20em;
+    border: solid black 1px;
+    position: relative;
+    left: 40%;
+}
+.content>p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.route-boxes{
+    text-align: center;
+}
+.route-boxes>a {
+    display: inline-block;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-size:5rem;
+}
