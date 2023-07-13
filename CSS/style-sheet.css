@@ -1,5 +1,5 @@
 html{
-    size: 1em;
+    size: 1rem;
 }
 body{
     background-color: lightblue;
@@ -8,24 +8,33 @@ body{
     height: 1.5em;
 }
 .footer{
-    position: fixed;
+    position: static;
     bottom: 2px;
     width: 100%;
+    margin-top: 10%;
+}
+.footer>p{
+    position: absolute;
+    right: 2em;
 }
 .contact{
     border-radius: 50%;
     height: 1.5em;
 }
 .conterfy{
-    height: 20em;
+    width: 15em;
     border: solid black 1px;
     position: relative;
-    left: 40%;
+    margin-left:calc(50% - 7.5em);
 }
 .content>p{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+}
+.navigation{
+    position: fixed;
+    right: 2em;
 }
 .route-boxes{
     text-align: center;
