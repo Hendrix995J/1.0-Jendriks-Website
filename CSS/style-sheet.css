@@ -1,5 +1,10 @@
 html{
-    size: 1rem;
+    width: 1245px;
+}
+@media(max-width:412px){
+    html{
+        width: 412px;
+    }
 }
 body{
     background-color: lightblue;
@@ -45,6 +50,10 @@ body{
     background-color: lightblue;
 }
 
+.navigation>h1{
+    font-size: 3rem;
+}
+
 .Homepage{
     display: none;
 }
@@ -74,7 +83,7 @@ h1{
 .content{
     text-align: left;
     position: relative;
-    top: 15em;
+    top: 10em;
     z-index: 0;
 }
 
