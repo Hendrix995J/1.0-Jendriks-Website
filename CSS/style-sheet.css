@@ -61,6 +61,7 @@ body{
     width: 30em;
     position: relative;
     margin-left: calc(50% - 10em);
+    margin-top: 2%;
     display: inline-flex;
     gap: 1rem;
 }
